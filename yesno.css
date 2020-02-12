@@ -1,0 +1,67 @@
+#yn {
+    display: none;
+}
+
+.yn-btn {
+    display: grid;
+    gap: 0px;
+    width: 100px;
+    margin-left: 40px;
+    transition: 0.4s;
+}
+
+#yn:checked ~ .yn-btn {
+    grid-template-columns: 0% 100%;
+}
+
+
+
+#yn ~ .yn-btn {
+    grid-template-columns: 100% 0%;
+}
+
+.yn-btn p {
+    overflow: hidden;
+    margin-left: 0px;
+    background-color: #cccccc;
+    color: white;
+    height: 50px;
+    transition: 0.4s;
+}
+
+.no  {
+    text-align: right;
+}
+
+.yes  span{
+    background-color:#3598db;
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.no span {
+    background-color: rgb(94, 100, 94);
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+    padding-top: 10px;
+
+}
+
+.bottom-ctn {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+}
+
+.bottom-ctn p {
+    flex-grow: 9;
+}
+
+.bottom-ctn .yn-btn {
+    flex-grow: 1;
+}

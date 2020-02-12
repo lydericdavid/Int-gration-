@@ -1,0 +1,219 @@
+
+body {
+  background-image: url("https://media.meteojob.com/theme/2.3/images/bg-clouds.png"),linear-gradient(#80c1ee,#1981c8, #82c2ef);
+  background-repeat: repeat;
+  margin: 25% auto;
+  width:900px;
+  font-size: 1.4em;
+  font-family:'Open Sans', sans-serif;
+  margin-top: -0px;
+  
+  
+}
+
+
+/*les grid*/
+.container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+    margin-left: 20px;
+   
+    
+  }
+  .container :nth-child(1) {
+    background-color:#3598db;
+    color: #fff;
+ 
+  }
+  
+ 
+ 
+  .container > div {
+   
+    background-color:#f2f2f2;
+    padding: 1em;
+    color:black; 
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.6;
+    
+   
+  }
+  .contenu {
+    background-color: white;
+  }
+
+  input{
+    height: 5.05vh;
+    width: 95%;
+    margin: 8px;
+    border: 1px solid gray;
+    margin-left: 20px;
+
+  }
+  
+  label {
+    margin-left: 20px;
+    font-weight: bold;
+  }
+
+  p { 
+    margin-left: 20px;
+    font-weight: 800;
+  }
+
+  .bouton {
+    width: 20%;
+    height: 70px;
+   
+    background-color:#3598db;
+    color: #ffff;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    font-size: 1.6em;
+    
+  }
+  /*
+  .name {
+    width: 44%;
+  }
+
+  .monprenom {
+    width: 46%;
+  }*/
+  
+  legend {
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 1.4em;
+  } 
+
+  a {
+    color: #000;
+  }
+
+ 
+  .photo{
+      display: flex;
+      justify-content: center;
+  }
+  .photo img {
+      display: flex;
+      align-self: center;
+      padding-top: 10%;
+
+  }
+  
+
+    h2{
+        text-align: center;
+        color: #fff;
+    }
+h3 {
+    color: #c1c1ff;
+    text-align: center;
+    padding-top: 15px;
+}
+
+  
+  .text {
+    
+       
+  }
+  
+
+  
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom:100px;
+  }
+
+ 
+.placeholder {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+  .icon {
+    padding-top: 100px;
+  }
+
+
+  ::placeholder {
+    padding-left: 10px;
+    font-size: 1.6em;
+    font-family: 'Open Sans', sans-serif;
+  }
+.passeword input{
+  display: flex;
+  border: none;
+  margin: 10px;
+  width:95% ;
+  height: 4vh;
+  outline: none;
+
+}
+.passeword {
+  display: flex;
+  border: 1px solid gray;
+  width: 95%;
+  margin:20px;
+  height: 6vh;
+   
+}
+.passeword i {
+ 
+  align-self: flex-end;
+  margin: 20px;
+  height: 2vh;
+   
+}
+.noms {
+    display:grid;
+    grid-template-columns: 48% 48%;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+
+/*
+.fa{
+  
+  top:68%;
+  padding-right:14px;
+  font-size: 24px;
+  left: 71%;
+  box-sizing: border-box;
+  height: 5vh;
+  }*/
+
+
+  .flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+  }
+
+  .flex > div {
+    background-color:#f3f0e8;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    width: 16%;  
+    
+  }
+  .flex :nth-child(1) {
+    background-color: #1981c8;
+    color: #fff;
+  }
+
+
+
+
+ 

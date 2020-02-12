@@ -1,0 +1,48 @@
+
+.lt-contrat {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 20px;
+    width: 90%;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.lt-contrat * {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.stl-it {
+    height: 80px;
+}
+
+.stl-it input {
+    display: none;
+}
+
+.stl-it label {
+    background-color: #cccccc;
+    padding: 20px;
+    color: #777777;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+.stl-it label:hover {
+    cursor: pointer;
+}
+
+.stl-it input:checked ~ label {
+    background-color:#3598db;
+    color: #fff;
+}
+
+.link-it {
+    width: 200px;
+    display: block;
+}
