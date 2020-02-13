@@ -44,11 +44,10 @@
 }
 
 .link-it {
-    width: 200px;
+    width: 240px;
     display: block;
     text-decoration: none; 
     padding-top: 20px;
-    font-size: large;
-    font-family:'Open Sans', sans-serif;
-    
+    font-size:1.2;
+    font-family: 'Open Sans', sans-serif;
 }
