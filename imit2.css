@@ -170,8 +170,12 @@ h3 {
  
   align-self: flex-end;
   margin: 20px;
-  height: 2vh;
-   
+  height: 2vh;   
+}
+.passeword img {
+  height: 25px;
+  padding-top: 15px;
+  padding-right: 15px;
 }
 .noms {
     display:grid;
