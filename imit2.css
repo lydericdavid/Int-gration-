@@ -113,8 +113,9 @@ body {
     }
 h3 {
     color: #c1c1ff;
-    text-align: center;
-    padding-top: 15px;
+    text-align: end;
+    padding-right: 120px;
+    padding-bottom: 120px;
 }
 
   
@@ -174,7 +175,7 @@ h3 {
 }
 .noms {
     display:grid;
-    grid-template-columns: 48% 48%;
+    grid-template-columns: 48% 49%;
     width: 100%;
     margin-bottom: 10px;
     
