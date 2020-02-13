@@ -93,6 +93,7 @@ body {
 
   a {
     color: #000;
+    font-family: 'Open Sans', sans-serif;
   }
 
  
@@ -113,7 +114,7 @@ body {
         color: #fff;
         font-family: 'Poiret One', cursive;
     }
-    
+
 h3 {
     color: #c1c1ff;
     text-align: end;
