@@ -62,12 +62,13 @@ body {
   p { 
     margin-left: 20px;
     font-weight: 800;
+    
   }
 
   .bouton {
     width: 20%;
     height: 70px;
-   
+    border: none;
     background-color:#3598db;
     color: #ffff;
     margin-bottom: 5%;
@@ -110,12 +111,15 @@ body {
     h2{
         text-align: center;
         color: #fff;
+        font-family: 'Poiret One', cursive;
     }
+    
 h3 {
     color: #c1c1ff;
     text-align: end;
     padding-right: 120px;
     padding-bottom: 120px;
+    
 }
 
   
@@ -217,7 +221,6 @@ h3 {
     background-color: #1981c8;
     color: #fff;
   }
-
 
 
 

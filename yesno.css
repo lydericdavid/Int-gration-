@@ -27,6 +27,7 @@
     color: white;
     height: 50px;
     transition: 0.4s;
+    border-radius: 6px;
 }
 
 .no  {
